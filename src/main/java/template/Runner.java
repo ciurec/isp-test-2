@@ -1,6 +1,6 @@
-package exec1;
+package template;
 
-public class Exec1 {
+public class Runner {
     public static void main(String[] args) {
 
     }

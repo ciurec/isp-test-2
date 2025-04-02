@@ -48,7 +48,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit-version}</version>
-            <!-- only to be used during test phase -->
+            <!-- only to be used during template phase -->
             <!-- will not be included in executable jar -->
             <scope>test</scope>
         </dependency>
