@@ -1,4 +1,5 @@
 package template.model;
 
-public class Person {
+public class Employee {
+
 }

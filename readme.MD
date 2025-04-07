@@ -4,11 +4,11 @@
 
 - Create the classes described in the diagram,elements inside and represent relationships between them. (4p)
 
-- Use a Set to store employees, add five employees, and assign a salary to each. (1p)
-
 - Extend the program to not allow duplicate employees based on the employeeId. (1p)
 
-- Display all the employee the salary for each employee. (1p)
+- Use the predefined Set from EmployeeManger to store and manage employees, add three employees with id and salary, and assign a name to each. (1p)
+
+- Display all the employees names and salary. (1p)
 
 - Implement a method to calculate the average salary of all employees and display the average. (1p)
 
@@ -18,12 +18,12 @@
 
 - Create the classes described in the diagram,elements inside and represent relationships between them. (4p)
 
-- Use a Set to store customers, add four customers, and assign totalSpend to each. (1p)
-
 - Extend the program to not allow duplicate customers based on the customerId. (1p)
 
-- Display all the customers and totalSpend for each customer. (1p)
+- Use the predefined Set from CustomerManager to store and manage customers, add three customers with id and totalSpending, and assign a name to each. (1p)
 
-- Implement a method to find the customer with the maximum amount spent and display customerId. (1p)
+- Display all the customers names and totalSpending. (1p)
+
+- Implement a method to find the customer with the maximum amount spent and display customerName. (1p)
 
 - Write unit tests to verify the correctness of the search for the customer with the maximum amount spent . (1p)
