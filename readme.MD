@@ -14,16 +14,21 @@
 
 - Write unit tests to verify the correctness of the average salary calculation (1p).
 
+[//]: # ()
+[//]: # ()
+[//]: # (- Create the classes described in the diagram,elements inside and represent relationships between them. &#40;4p&#41;)
 
+[//]: # ()
+[//]: # (- Extend the program to not allow duplicate customers based on the customerId. &#40;1p&#41;)
 
-- Create the classes described in the diagram,elements inside and represent relationships between them. (4p)
+[//]: # ()
+[//]: # (- Use the predefined Set from CustomerManager to store and manage customers, add three customers with id and totalSpending, and assign a name to each. &#40;1p&#41;)
 
-- Extend the program to not allow duplicate customers based on the customerId. (1p)
+[//]: # ()
+[//]: # (- Display all the customers names and totalSpending. &#40;1p&#41;)
 
-- Use the predefined Set from CustomerManager to store and manage customers, add three customers with id and totalSpending, and assign a name to each. (1p)
+[//]: # ()
+[//]: # (- Implement a method to find the customer with the maximum amount spent and display customerName. &#40;1p&#41;)
 
-- Display all the customers names and totalSpending. (1p)
-
-- Implement a method to find the customer with the maximum amount spent and display customerName. (1p)
-
-- Write unit tests to verify the correctness of the search for the customer with the maximum amount spent . (1p)
+[//]: # ()
+[//]: # (- Write unit tests to verify the correctness of the search for the customer with the maximum amount spent . &#40;1p&#41;)
