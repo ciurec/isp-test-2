@@ -14,8 +14,8 @@
 
 - Write unit tests to verify the correctness of the average salary calculation (1p).
 
-[//]: # ()
-[//]: # ()
+
+
 [//]: # (- Create the classes described in the diagram,elements inside and represent relationships between them. &#40;4p&#41;)
 
 [//]: # ()
