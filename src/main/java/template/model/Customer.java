@@ -1,5 +1,5 @@
 package template.model;
 
-public class Employee {
+public class Customer {
 
 }
