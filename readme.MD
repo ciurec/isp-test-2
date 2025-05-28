@@ -26,8 +26,12 @@
 
 - Use the predefined Set from CustomerManager to store and manage customers, add three customers with id and totalSpending, and assign a name to each. (1p)
 
-- Display all the customers names and totalSpending. (1p)
+- Display all customer names sorted alphabetically with their totalSpending. (1p)
 
-- Implement a method to find the customer with the maximum amount spent and display customerName. (1p)
+- Implement a method to calculate and return the average totalSpending of all customer. (1p)
 
-- Write unit tests to verify the correctness of the search for the customer with the maximum amount spent . (1p)
+- Write unit tests to verify: (1p)
+
+       Customers with duplicate emails are not added.
+
+       Average spending is correctly calculated.  
