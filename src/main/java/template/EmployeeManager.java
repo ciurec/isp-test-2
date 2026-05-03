@@ -1,0 +1,16 @@
+package template;
+
+import template.model.Employee;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class EmployeeManager {
+
+    private Set<Employee> customers;
+
+    public EmployeeManager() {
+        this.customers = new HashSet<>();
+    }
+
+}
