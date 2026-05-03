@@ -7,10 +7,5 @@ import java.util.Set;
 
 public class EmployeeManager {
 
-    private Set<Employee> customers;
-
-    public EmployeeManager() {
-        this.customers = new HashSet<>();
-    }
-
+    private Set<Employee> employees = new HashSet<>();
 }

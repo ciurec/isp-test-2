@@ -9,6 +9,8 @@
 >   - ❌ No external resources, documents, or AI chat tools
 ---
 
+> ℹ️ If additional elements are needed (e.g., getters/setters), you are allowed to add them.
+
 # Starting from the provided template, implement a program that follows the specifications below:
 
 ![Sample image](docs/sample.jpg)
@@ -20,9 +22,9 @@
 - Create a method that adds employees. Use the predefined `Set` from `EmployeeManager` to store and manage employees.
   Call it from the main method and add three employees. (1p)
 
-- Create a method to display all employee names sorted alphabetically with their salaries. (1p)
+- Create a method to display all employee names with their salaries. (1p)
 
-- Implement `updateSpendingById(Long id, Integer salary)` that updates an employee's salary by ID. (1p)
+- Implement `updateSalaryById(Long id, Integer salary)` that updates an employee's salary by ID. (1p)
 
 - Implement `findByEmail(String email)` in `EmployeeManager` so it returns the employee with the given email.
   The search must be case-insensitive and ignore leading/trailing spaces. (1p)
