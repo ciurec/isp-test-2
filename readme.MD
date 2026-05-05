@@ -65,4 +65,5 @@
 - Write unit tests to verify:
 
   Customers with a given name are correctly found by the findByName method. (0.5p)
+- 
   Duplicate customers(with the same phone number) are not allowed. (0.5p)
