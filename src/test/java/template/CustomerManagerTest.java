@@ -2,7 +2,7 @@ package template;
 
 import org.junit.Test;
 
-public class EmployeeManagerTest {
+public class CustomerManagerTest {
 
     @Test
     public void test() {
