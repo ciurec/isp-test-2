@@ -67,3 +67,9 @@
   Customers with a given name are correctly found by the findByName method. (0.5p)
 - 
   Duplicate customers(with the same phone number) are not allowed. (0.5p)
+
+- Implement a method `getTotalCustomers()` in `CustomerManager` that returns the total number of customers. (1p)
+
+- Implement a method `getAverageSpending()` in `CustomerManager` that returns the average spending of all customers. (1p)
+
+- Write unit tests to verify that `updateSpendingByID(Long id, int amount)` correctly updates the spending value. (1p)
