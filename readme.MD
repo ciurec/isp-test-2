@@ -45,31 +45,21 @@
 - Create the classes described in the diagram, including their elements, and represent the relationships between them. (3p)
 
 
-- Extend the program to prevent duplicate customers based on customer phoneNumber. (1p)
+- Extend the program to prevent duplicate customers based on customer name. (1p)
+
 
 - Create a method that adds customers. Use the predefined Set from CustomerManager to store and manage customers.
 
   Call it from the main method and add three customers. (1p)
 
 
-- Create a method to display all customer names sorted alphabetically with their total spending. (1p)
+- Implement a method getAverageSpending() in CustomerManager that returns the average spending of all customers. (1p)
 
-- Implement a method findByName(String name) in CustomerManager that returns the customer with the given name.
 
-  The search must be case-insensitive and ignore leading/trailing spaces. (1p)
-
-- Implement updateSpendingByID(Long id, int amount) so it increases the customer's
-
-  total spending identified by ID. (1p)
+- Implement List<Customer> getTopCustomersBySpending(int limit, int minSpending) in CustomerManager that returns only customers with totalSpending >= minSpending. (1p)
 
 - Write unit tests to verify:
 
-  Customers with a given name are correctly found by the findByName method. (0.5p)
-- 
-  Duplicate customers(with the same phone number) are not allowed. (0.5p)
++  `getAverageSpending()` returns the correct average spending value. (1p)
 
-- Implement a method `getTotalCustomers()` in `CustomerManager` that returns the total number of customers. (1p)
-
-- Implement a method `getAverageSpending()` in `CustomerManager` that returns the average spending of all customers. (1p)
-
-- Write unit tests to verify that `updateSpendingByID(Long id, int amount)` correctly updates the spending value. (1p)
++  Duplicate customers(with the same name) are not allowed. (1p)
